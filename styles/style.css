@@ -211,6 +211,7 @@
   padding: 0;
   padding-block-start: 6px;
   transition: border 0.3s ease;
+  user-select: none;
 }
 
 .card__icon-button:focus {
@@ -380,6 +381,8 @@ dialog:not([open]) {
   pointer-events: none;
   opacity: 0;
 }
+
+
 
 .sparks {
   opacity: 0;
