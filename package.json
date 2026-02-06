@@ -1,0 +1,29 @@
+{
+  "name": "zakrivayuschiy-teg-f",
+  "version": "1.0.0",
+  "description": "https://github.com/Trenetive/zakrivayuschiy-teg-f.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trenetive/zakrivayuschiy-teg-f.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trenetive/zakrivayuschiy-teg-f/issues"
+  },
+  "homepage": "https://github.com/Trenetive/zakrivayuschiy-teg-f#readme",
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "stylelint": "^17.0.0"
+  }
+}
