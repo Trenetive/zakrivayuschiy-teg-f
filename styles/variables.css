@@ -3,8 +3,16 @@
   --font-accent: "PressStart2P", cursive;
   --font-weight-text: 410;
   --font-weight-title: 715;
-  --page-gradient-horizontal: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px);
-  --page-gradient-vertical: repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px);
+  --page-gradient-horizontal: repeating-linear-gradient(
+    to right,
+    #d3d3d3 0 2px,
+    transparent 2px 4px
+  );
+  --page-gradient-vertical: repeating-linear-gradient(
+    to bottom,
+    #d3d3d3 0 2px,
+    transparent 2px 4px
+  );
   --page-gradient-main: linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   --content-width: clamp(375px, 100vw, 1440px);
   --content-width: clamp(375px, 100%, 700px);
@@ -27,5 +35,5 @@
   --contour-color: black;
   --fill-color: transparent;
   --core-color: transparent;
-  --sparks-color: #F00;
+  --sparks-color: #f00;
 }
