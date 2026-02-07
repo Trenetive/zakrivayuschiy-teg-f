@@ -14,7 +14,6 @@
     transparent 2px 4px
   );
   --page-gradient-main: linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
-  --content-width: clamp(375px, 100vw, 1440px);
   --content-width: clamp(375px, 100%, 700px);
   --header-padding-block: clamp(122px, calc(119px + 0.751vw), 130px);
   --header-padding-inline: clamp(16px, calc(16px + 10vw), 122.5px);
