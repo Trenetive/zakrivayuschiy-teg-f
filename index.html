@@ -583,7 +583,7 @@
 
               <!-- КНОПКА LIKE -->
               <button class="button card__like-button" type="button">
-                <span class="button__text">Like</span>
+                <span class="button__text button-text">Like</span>
               </button>
             </div>
           </div>
@@ -599,28 +599,20 @@
         <svg class="icon save__button-icon" viewBox="0 0 21 21">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
-        <span class="save__button-text">Сохранить на память</span>
+        <span class="save__button-text button-text">Сохранить на память</span>
       </button>
 
       <dialog class="dialog" id="disk">
-        <form>
+        <form method="dialog">
           <div class="dialog__container">
             <svg class="icon dialog__icon" viewBox="0 0 21 21">
               <use href="./svg/floppy.svg#floppy"></use>
             </svg>
-            <span class="dialog__text"
-              >Вставьте<br />
-              дискету, чтобы<br />
-              продолжить</span
-            >
+            <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
           </div>
-          <button class="button dialog__button">
-            <p class="dialog__button-text">Ок</p>
-          </button>
-        </form>
-        <form method="dialog">
-          <button class="dialog__close-button">
-            <p class="visually-hidden">Закрыть окно</p>
+          <button class="button dialog__button" type="button"
+          onclick="window['disk'].close();">
+            <span class="dialog__button-text button-text">Ок</span>
           </button>
         </form>
       </dialog>
